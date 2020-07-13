@@ -3,13 +3,43 @@
     <h1>About Me</h1>
 </div>
 
-<div class="row">
-    <div class="col-md-6">
-        <img src="../../../assets//gk.jpeg" width="400" alt="gk profile">
+<div class="row margin-top-30">
+    <div class="col-md-5 col-sm-6 col-xs-12">
+        <img src="{{userInfo.about.profileImg}}" width="400" alt="gk profile">
     </div>
-    <div class="col-md-6">
-        <h3>Who am i?</h3>
-        <div class="intro">I'm Gaurav Kadam, a visual UX/UI Designer and Web Developer</div>
-        <p>I am a freelancer based in the India and i have been building noteworthy UX/UI designs and websites for years, which comply with the latest design trends. I help convert a vision and an idea into meaningful and useful products. Having a sharp eye for product evolution helps me prioritize tasks, iterate fast and deliver faster.</p>
+    <div class="col-md-6 col-sm-6 col-xs-12">
+        <div class="who-am-i">Who am i?</div>
+        <div class="intro" [innerText]="userInfo.about.header"></div>
+        <p [innerText]="userInfo.about.profileDesc"></p>
+
+        <hr>
+        <div class="row" class="personal-info">
+            <div class="no-padding col-md-6 col-sm-6 col-xs-12">
+                <div>
+                    Name : <span [innerText]="userInfo.about.name"></span>
+                </div>
+                <div>
+                    Age : <span [innerText]="userInfo.about.age"></span>
+                </div>
+            </div>
+            <div class="no-padding col-md-6 col-sm-6 col-xs-12">
+                <div>
+                    Email : <span [innerText]="userInfo.about.email"></span>
+                </div>
+                <div>
+                    From: <span [innerText]="userInfo.about.from"></span>
+                </div>
+            </div>
+        </div>
+        <div class="social-container">
+            <button class="btn btn-primary" (click)="downloadCV()">
+                Download CV
+            </button>
+            <div class="social-links">
+                <a href="{{userInfo.about.socialLinks.instagram}}" target="_blank" class="fa fa-instagram"></a>
+                <a href="{{userInfo.about.socialLinks.facebook}}" target="_blank" class="fa fa-facebook"></a>
+                <a href="{{userInfo.about.socialLinks.linkedIn}}" target="_blank" class="fa fa-linkedin"></a>
+            </div>
+        </div>
     </div>
 </div>

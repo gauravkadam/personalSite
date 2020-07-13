@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { user } from '../../../assets/profiles/profiles';
 
 @Component({
   selector: 'app-home',
@@ -7,9 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
+  public userInfo: any;
+
   constructor() { }
 
   ngOnInit() {
+    this.userInfo = user['gk'];
   }
-
 }
