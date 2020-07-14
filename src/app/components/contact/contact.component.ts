@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { user } from '../../../assets/profiles/profiles';
+import { environment } from '../../../environments/environment';
 
 @Component({
   selector: 'app-contact',
@@ -13,6 +14,6 @@ export class ContactComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.userInfo = user['gk'];
+    this.userInfo = user[environment.profile];
   }
 }
