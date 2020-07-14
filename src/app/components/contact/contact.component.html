@@ -1,1 +1,116 @@
-<p>contact works!</p>
+<div class="header-conatiner">
+    <div>Feel free to contact me anytimes</div>
+    <h1>Get in Touch</h1>
+</div>
+
+<div class="row contact-container">
+    <div class="col-md-7 col-sm-7 col-xs-12">
+        <div class="sub-header">Message Me</div>
+        <form class="form-horizontal" action="/action_page.php">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <input type="email" class="form-control" id="email" placeholder="Name" name="email">
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <input type="text" class="form-control" id="pwd" placeholder="Email" name="pwd">
+                </div>
+            </div>
+            <div>
+                <input type="text" class="form-control" id="pwd" placeholder="Subject" name="pwd">
+            </div>
+            <div>
+                <textarea type="password" class="form-control" id="pwd" rows="5" placeholder="Message"
+                    name="pwd"></textarea>
+            </div>
+            <div class="form-group ol-md-6 col-sm-6 col-xs-12">
+                <button type="submit" class="btn btn-default">Send Message</button>
+
+            </div>
+        </form>
+    </div>
+    <div class="col-md-5 col-sm-5 col-xs-12">
+        <div class="sub-header">Contact Info</div>
+        <div class="contact-text">
+            Always available for freelance work if the right project comes along, Feel free to contact me!
+        </div>
+        <div class="row contact-info-vr">
+            <!-- <div class="col-md-2 col-sm-2 col-xs-2">
+                 <div>
+
+                    <div class="fa fa-user-circle-o"></div>
+                </div>
+                <div>
+                    <div class="fa fa-home"></div>
+                </div>
+                <div>
+                    <div class="fa fa-phone"></div>
+                </div>
+                <div>
+                    <div class="fa fa-inbox"></div>
+                </div> 
+            </div> -->
+            <div class="col-md-10 col-sm-10 col-xs-10">
+                <div class="sub-info">
+                    <div class="flex-layout">
+                        <div>
+                            <div class="fa fa-user-circle-o"></div>
+                        </div>
+                        <div>
+                            <div>
+                                Name
+                            </div>
+                            <div class="contact-text" [innerText]="userInfo.about.name">
+                          
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub-info">
+                    <div class="flex-layout">
+                        <div>
+                            <div class="fa fa-home"></div>
+                        </div>
+                        <div>
+                            <div>
+                                Location
+                            </div>
+                            <div class="contact-text ">
+                                <div [innerText]="userInfo.about.from"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub-info">
+                    <div class="flex-layout">
+                        <div>
+                            <div class="fa fa-phone"></div>
+                        </div>
+                        <div>
+                            <div>
+                                Call Me
+                            </div>
+                            <div class="contact-text ">
+                                <div [innerText]="userInfo.about.mobile"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub-info">
+                    <div class="flex-layout">
+                        <div>
+                            <div class="fa fa-inbox"></div>
+                        </div>
+                        <div>
+                            <div>
+                                Email
+                            </div>
+                            <div class="contact-text ">
+                                <div [innerText]="userInfo.about.email"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

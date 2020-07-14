@@ -15,7 +15,8 @@ export const user = {
                 facebook: "https://www.facebook.com/gauravkadam123/",
                 linkedIn: "https://www.facebook.com/gauravkadam123/"
             },
-            resumeLink: "../../../assets/resume/gk.pdf"
+            resumeLink: "../../../assets/resume/gk.pdf",
+            mobile: "+919021667373"
         }
     },
     sv: {
@@ -32,7 +33,8 @@ export const user = {
                 facebook: "https://www.facebook.com/shweta.vyas.7587",
                 linkedIn: "https://www.linkedin.com/in/shweta-vyas-05939a113/"
             },
-            resumeLink: "../../../assets/resume/sv.pdf"
+            resumeLink: "../../../assets/resume/sv.pdf",
+            mobile: "+919011272599"
         }
     }
   };
