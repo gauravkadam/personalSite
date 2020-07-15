@@ -1,6 +1,7 @@
 .header-conatiner {
     text-align: center;
     margin-top: 5%;
+
     div {
         color: #887979;
         font-size: 17px;
@@ -15,6 +16,7 @@
 div img {
     float: right;
 }
+
 p {
     font-size: 16px;
     color: #887979;
@@ -25,12 +27,13 @@ p {
 .personal-info {
     font-size: 17px;
     line-height: 2;
+
     span {
         color: #887979;
     }
 }
 
-hr{
+hr {
     margin: 30px 0;
 }
 
@@ -44,7 +47,7 @@ button {
     padding: 5px 30px;
 }
 
-h1{
+h1 {
     font-size: -webkit-xxx-large;
     font-weight: bolder;
 }
@@ -52,7 +55,7 @@ h1{
 .social-links {
     display: inline;
     margin-left: 30px;
- 
+
     a {
         padding: 5px;
         font-size: 20px;
@@ -81,4 +84,8 @@ h1{
     img {
         width: 100%;
     }
-  }
+
+    .who-am-i {
+        margin-top: 20px;
+    }
+}
