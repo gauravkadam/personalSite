@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  profile: 'gk'
+  profile: 'sv'
 };

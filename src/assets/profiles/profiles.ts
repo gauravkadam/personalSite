@@ -100,7 +100,7 @@ export const user = {
             ],
             experience: [
                 {
-                    role: "User Interface Designer",
+                    role: "Software Engineer",
                     duration: "Fiserv / 2018 - Present"
                 }
             ],
