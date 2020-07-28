@@ -10,7 +10,7 @@ export const user = {
             email: "Gauravkadam123@gmail.com",
             from: "Pune, India",
             downloadCVurl: "test",
-            profileImg: "../../../assets//gk.jpeg",
+            profileImg: "../../../assets//gk.jpg",
             socialLinks: {
                 instagram: "https://www.instagram.com/gaurav.kadam/?hl=en",
                 facebook: "https://www.facebook.com/gauravkadam123/",

@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  profile: 'sv'
+  profile: 'gk'
 
 };
 
